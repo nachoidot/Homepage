@@ -87,7 +87,6 @@ permalink: /ko/
 <section id="cv" class="section">
   <h2>CV</h2>
   <div class="card">
-    <div>다운로드:</div>
     <div class="cta-row">
       <a class="primary" href="{{ site.baseurl }}/cv.tex">LaTeX source</a>
       <a href="{{ site.baseurl }}/cv.pdf">PDF (업로드 예정)</a>

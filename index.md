@@ -89,7 +89,6 @@ permalink: /
 <section id="cv" class="section">
   <h2>CV</h2>
   <div class="card">
-    <div>Download options:</div>
     <div class="cta-row">
       <a class="primary" href="{{ site.baseurl }}/cv.tex">LaTeX source</a>
       <a href="{{ site.baseurl }}/cv.pdf">PDF (to be uploaded)</a>
