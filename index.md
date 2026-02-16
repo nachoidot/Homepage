@@ -13,7 +13,6 @@ permalink: /
       <a class="primary" href="#contact">Get in touch</a>
       <a href="#cv">CV</a>
     </div>
-    <p><strong>Language:</strong> English (default) · <a href="{{ site.baseurl }}/ko/">한국어</a></p>
   </div>
   <div class="profile-wrap">
     <img class="profile-photo" src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Jaeho Choi profile photo">
