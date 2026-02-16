@@ -102,18 +102,25 @@ body {
 }
 
 .hero-grid {
-  grid-template-columns: 1fr 220px;
+  grid-template-columns: minmax(0, 1fr) clamp(180px, 22vw, 240px);
   align-items: center;
+  gap: 28px;
 }
 
 .profile-wrap {
+  width: 100%;
+  max-width: 240px;
   justify-self: end;
 }
 
 .profile-photo {
-  width: 200px;
-  aspect-ratio: 1 / 1;
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 3 / 4;
+  height: auto;
   object-fit: cover;
+  object-position: center 18%;
   border-radius: 14px;
   border: 1px solid var(--border);
   box-shadow: 0 10px 22px rgba(29, 26, 22, 0.12);
@@ -243,9 +250,10 @@ body {
 
   .profile-wrap {
     justify-self: start;
+    max-width: 160px;
   }
 
   .profile-photo {
-    width: 150px;
+    max-width: 160px;
   }
 }
