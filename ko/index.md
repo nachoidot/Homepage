@@ -5,12 +5,17 @@ lang: ko
 permalink: /ko/
 ---
 
-<section class="hero">
-  <h1>최재호</h1>
-  <p>서강대학교 경제학 석사과정. 통화정책, 공간계량, 베이지안 계량, AI 기반 경제모형을 연구합니다.</p>
-  <div class="cta-row">
-    <a class="primary" href="#contact">연락하기</a>
-    <a href="#cv">CV</a>
+<section class="hero hero-grid">
+  <div>
+    <h1>최재호</h1>
+    <p>서강대학교 경제학 석사과정. 통화정책, 공간계량, 베이지안 계량, AI 기반 경제모형을 연구합니다.</p>
+    <div class="cta-row">
+      <a class="primary" href="#contact">연락하기</a>
+      <a href="#cv">CV</a>
+    </div>
+  </div>
+  <div class="profile-wrap">
+    <img class="profile-photo" src="{{ site.baseurl }}/assets/images/profile.jpg" alt="최재호 프로필 사진">
   </div>
 </section>
 
@@ -37,7 +42,7 @@ permalink: /ko/
   <div class="list">
     <div class="list-item">
       <strong>준비 중</strong><br>
-      김재원, 박대민, 정세영, <strong>최재호</strong>, 정채식, 이윤수.
+      김재원, 박대민, 정세영, <strong>최재호</strong>, 정재식, 이윤수.
       <em>AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.</em>
     </div>
     <div class="list-item">
@@ -47,7 +52,7 @@ permalink: /ko/
     </div>
     <div class="list-item">
       <strong>투고</strong><br>
-      <strong>최재호</strong>, 김재원, 정세영, 정채식, 이윤수.
+      <strong>최재호</strong>, 김재원, 정세영, 정재식, 이윤수.
       <em>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis.</em>
       <em>AISTATS 2026</em> 제출(심사 중).
     </div>

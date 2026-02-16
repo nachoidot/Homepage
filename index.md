@@ -5,14 +5,19 @@ lang: en
 permalink: /
 ---
 
-<section class="hero">
-  <h1>Jaeho Choi</h1>
-  <p>M.S. Student in Economics at Sogang University. Researching monetary policy, spatial econometrics, Bayesian methods, and AI-driven economic modeling.</p>
-  <div class="cta-row">
-    <a class="primary" href="#contact">Get in touch</a>
-    <a href="#cv">CV</a>
+<section class="hero hero-grid">
+  <div>
+    <h1>Jaeho Choi</h1>
+    <p>M.S. Student in Economics at Sogang University. Researching monetary policy, spatial econometrics, Bayesian methods, and AI-driven economic modeling.</p>
+    <div class="cta-row">
+      <a class="primary" href="#contact">Get in touch</a>
+      <a href="#cv">CV</a>
+    </div>
+    <p><strong>Language:</strong> English (default) · <a href="{{ site.baseurl }}/ko/">한국어</a></p>
   </div>
-  <p><strong>Language:</strong> English (default) · <a href="{{ site.baseurl }}/ko/">한국어</a></p>
+  <div class="profile-wrap">
+    <img class="profile-photo" src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Jaeho Choi profile photo">
+  </div>
 </section>
 
 <section id="research" class="section">
