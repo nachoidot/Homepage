@@ -1,0 +1,224 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.75in} % <-- a4paper로 통일
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+%%%%%%%%%%
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{\textit{Jaeho Choi}}
+\fancyhead[R]{\textit{January 2026}}
+\thispagestyle{empty} % Remove header from the first page
+
+% Header
+\begin{flushleft}
+\textbf{\LARGE Jaeho Choi}\\[2pt] % Name
+M.S. Student, Sogang University, Seoul, Republic of Korea
+\\ \href{mailto:wogh1217@sogang.ac.kr}{wogh1217@sogang.ac.kr} \,|\, \href{tel:+821063193924}{+82 10-6319-3924}\,|\,
+\href{https://www.linkedin.com/in/jaeho-choi99/}{www.linkedin.com/in/jaeho-choi99/} \,|\,\href{https://sc.sogang.ac.kr/aifinlab/}{AIFinLab} % Contact info% Contact info
+\end{flushleft}
+
+% Education Section
+\section*{RESEARCH INTERESTS}
+\noindent
+Macroeconomics, Monetary Policy, Spatial Econometrics, Bayesian Econometrics, AI-Driven Economic Modeling
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Sogang University}, Seoul, Republic of Korea \hfill September 2024 | Present\\
+Master of Arts in Economics \hfill Cumulative GPA: 4.11/4.30 (98.50/100; 3.82/4.00 conv.)\\
+
+\noindent\\
+\textbf{Incheon National University}, Incheon, Republic of Korea \hfill March 2019 | August 2024\\
+Bachelor of Science in Consumer Science\\
+Bachelor of Business Administration\\
+Bachelor of Economics\\
+Honors: Graduated with Highest Honors (2/14 dept.)
+
+% Additional info
+
+% Experience Section
+\section*{ACADEMIC EXPERIENCE}
+\noindent \textbf{Sogang University, Department of Economics} \hfill Seoul, Republic of Korea\\
+\textit{Graduate Research Assistant / Researcher, AIFinLab} \hfill Sep 2024 -- Present
+\begin{itemize}
+  \item Conduct research on monetary policy stance modeling using central bank communications (e.g., Beige Book, FOMC statements).
+  \item Build and curate text datasets; design labeling protocol for Hawkish/Dovish/Neutral and rationale annotations.
+  \item Fine-tune large language models (LLMs) for stance classification and rationale generation; analyze faithfulness and calibration.
+  \item Evaluate models with classification metrics and robustness checks; prepare research reports and manuscript drafts.
+\end{itemize}
+
+\noindent
+\textbf{Sogang University, Department of Economics} \hfill Seoul, Republic of Korea\\
+\textit{Teaching Assistant Coordinator (Graduate Program)} \hfill Spring 2025 | Summer 2025
+\begin{itemize}
+  \item Coordinated TA assignments and graduate-program operations; served as the primary liaison among faculty, TAs, and students.
+  \item Supported admissions/interview processes including administrative and logistical setup.
+  \item Facilitated onboarding and academic support for incoming graduate students (program requirements, resources, and adaptation).
+\end{itemize}
+
+\noindent
+\textbf{Sogang University, Department of Economics} \hfill Seoul, Republic of Korea\\
+\textit{Teaching Assistant (TA)} \hfill Fall 2025 | Present
+\begin{itemize}
+  \item TA for four courses: \textbf{AI Finance} (Undergraduate), \textbf{AI Finance} (Graduate),
+        \textbf{Big Data Analytics for Financial Markets} (Undergraduate),
+        and \textbf{Deep Learning for Network Economics} (Graduate).
+  \item Held office hours and Q\&A sessions; supported lectures and course administration.
+  \item Assisted with programming labs and empirical/deep-learning exercises (Python); managed assignments and grading.
+  \item Provided feedback on term projects (data analysis/modeling) and presentations; maintained course materials.
+\end{itemize}
+
+
+% Projects Section
+\section*{PROJECTS}
+
+\noindent
+\textbf{GRPO-Based LLM Alignment for FOMC Policy Stance \& Rationale Generation} \hfill Seoul, Republic of Korea\\
+\textit{Project Lead / Researcher} \hfill Fall 2025 | Present
+\begin{itemize}
+    \item Presentations(Scheduled) :\\
+        - 18th WEAI International Conference (Presenter, Bangkok, April 2026)
+    \end{itemize}
+% \begin{itemize}
+%   \item Developed an LLM pipeline to classify monetary policy stance (Hawkish/Dovish/Neutral) and generate supporting rationales from central bank texts.
+%   \item Applied GRPO-style preference optimization to improve rationale quality and stance consistency under task-specific constraints.
+%   \item Evaluated performance using classification metrics and robustness checks; analyzed rationale faithfulness and calibration.
+% \end{itemize}
+
+\noindent
+\textbf{Network Economics: Fiedler Value as a Systemic Connectivity Indicator} \hfill Seoul, Republic of Korea\\
+\textit{Research / Implementation Project} \hfill Fall 2025 | Present
+% \begin{itemize}
+%   \item Constructed economic/financial networks and analyzed structural properties using spectral graph theory (graph Laplacian eigenvalues).
+%   \item Used the Fiedler value (algebraic connectivity) to quantify network resilience and fragmentation; conducted sensitivity analyses across network definitions.
+%   \item Produced reproducible analysis code and technical summaries for empirical applications in network economics.
+% \end{itemize}
+
+\noindent
+\textbf{Bayesian GVAR with COVID-19 Time-Varying Volatility and Spillovers} \hfill Seoul, Republic of Korea\\
+\textit{Research Project} \hfill Fall 2024 | Present
+% \begin{itemize}
+%   \item Built a Bayesian GVAR framework to study cross-country transmission of COVID-19 shocks and volatility spillovers.
+%   \item Implemented estimation and inference workflows (e.g., MCMC components) and performed cross-country comparative analyses.
+%   \item Conducted robustness checks on priors, identification, and volatility specifications; in progress
+% \end{itemize}
+
+\section*{PUBLICATIONS}
+\noindent 
+\textbf{In Preparation}
+\begin{itemize}
+  \item Jaewon Kim, Daemin Park, Seyoung Chung, \textbf{Jaeho Choi}, Chaeshick Chung, \& Yoonsoo Lee.
+  \textit{Working title: “AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.”}
+  Manuscript in preparation.
+  \begin{itemize}
+    \item Presentations(Scheduled) :\\
+        \begin{itemize}
+            \item 18th WEAI International Conference (Presenter, Bangkok, April 2026)
+        \end{itemize}
+    \end{itemize}
+  \item \textbf{Jaeho Choi} \& Jaeho Kim.
+  \textit{Working title: “Bayesian GVAR with COVID-19 Time-Varying Volatility and Spillovers.”}
+  Manuscript in preparation.
+\end{itemize}
+
+\noindent 
+\textbf{Submitted}
+\begin{itemize}
+  \item \textbf{Jaeho Choi}, Jaewon Kim, Seyoung Chung, Chae-shick Chung, \& Yoonsoo Lee.
+  \textit{Working title: “Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis.”}
+  Submitted to \textit{AISTATS 2026} (Under Review).
+\end{itemize}
+
+
+% \section*{SELECTED COURSES}
+%     \begin{tabularx}{1\textwidth}{
+%     >{\raggedright\arraybackslash}X 
+%    >{\raggedright\arraybackslash}X }
+%       \textbf{Graduate Courses (Master's)}&   \textbf{Undergraduate Courses (Bachelor's)}\\ 
+%      \begin{itemize}
+%          \item Network Economics using Geometric Deep Learning (A+)
+%          \item Economic Time Series Analysis (A+)
+%          \item AI and Machine Learning: Bayesian Macro (A0)
+%          \item AI Financial Economics (A+)
+%          \item Introduction to Probability Theory (A+)
+%          \item Microeconomics (A+) / Macroeconomics (A0)
+%          \item Econometrics (A0)
+%          \item Advanced Calculus I (B+)
+%      \end{itemize}
+%      & \begin{itemize}
+%          \item Linear Algebra (A+)
+%          \item Mathematical Economics (A+)
+%          \item Monetary Economics (A+)
+%          \item Business Statistics (A+)
+%          \item Economic Statistics Application (A+)
+%          \item Principles of Economics (A+)
+%          \item Microeconomics (A+) / Macroeconomics (A0)
+%          \item Basic Metric Economics (A+)
+%          \item Coding and Macroeconomics (A+)
+%               \end{itemize}\\
+%     \end{tabularx}
+
+% \section*{OTHER EXPERIENCES}
+% \noindent
+% \textbf{\# you can here experiences those are less related to you applying position}  \hfill \#City, \#Country\\ % Company name and location
+% \textit{\# Your Position} \hfill \#Month \#Year | \#Month \#Year % Position and duration
+% \begin{itemize}
+%     \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+% \end{itemize}
+
+
+% \section*{ENGLISH \& GRE TESTS}
+%     \begin{tabularx}{1\textwidth}{
+%     >{\raggedright\arraybackslash}X 
+%    >{\raggedright\arraybackslash}X }
+%       \textbf{IELTS (Academic): 7.5} (overall score)&   \textbf{GRE General Test:}\\ \\
+%     Listening: XX | Reading: XX & Quant: XXX | Verbal: XXX\\
+%     Speaking: XX   | Writing: XX& Analytical writing: X\\
+%     Test date: \#Month \#Year &Test date: \#Month \#Year
+%     \end{tabularx}
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+  \item \textbf{Programming:} Python, MATLAB, SQL, \LaTeX
+  \item \textbf{Software:} Stata, MATLAB; Git/GitHub, Linux, Jupyter, VS Code
+  \item \textbf{Soft Skills:} Academic writing \& presentations, teaching assistance, coordination/administration, teamwork, project management
+\end{itemize}
+
+% \section*{REFERENCES}
+% \textbf{Prof. John Doe}\\
+% \textit{\#Position, \# Department, \# Organization name or University name, \# City, \# Country}\\
+% E-mail: \href{mailto:johndoe@XXX.XX}{johndoe@XXX.XX}\\
+% Scholar Profiles: \href{related link}{University of XXX - Personal Page} | \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn}\\ \\
+% \textbf{Prof. John Doe}\\
+% \textit{\#Position, \# Department, \# Organization name or University name, \# City, \# Country}\\
+% E-mail: \href{mailto:johndoe@XXX.XX}{johndoe@XXX.XX}\\
+% Scholar Profiles: \href{related link}{University of XXX - Personal Page} | \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn}\\ \\
+% \textbf{Prof. John Doe}\\
+% \textit{\#Position, \# Department, \# Organization name or University name, \# City, \# Country}\\
+% E-mail: \href{mailto:johndoe@XXX.XX}{johndoe@XXX.XX}\\
+% Scholar Profiles: \href{related link}{University of XXX - Personal Page} | \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn}\\ \\
+% % End document
+\end{document}
