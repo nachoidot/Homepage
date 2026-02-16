@@ -19,24 +19,24 @@
         </div>
         {% if page.lang == "en" or page.lang == "ko" %}
         <nav class="site-nav">
-          {% if page.lang == "en" %}
-          <a href="{{ site.baseurl }}/en/#research">Research</a>
-          <a href="{{ site.baseurl }}/en/#publications">Publications</a>
-          <a href="{{ site.baseurl }}/en/#presentations">Presentations</a>
-          <a href="{{ site.baseurl }}/en/#education">Education</a>
-          <a href="{{ site.baseurl }}/en/#cv">CV</a>
-          <a href="{{ site.baseurl }}/en/#contact">Contact</a>
-          {% else %}
+          {% if page.lang == "ko" %}
           <a href="{{ site.baseurl }}/ko/#research">연구</a>
           <a href="{{ site.baseurl }}/ko/#publications">논문</a>
           <a href="{{ site.baseurl }}/ko/#presentations">발표</a>
           <a href="{{ site.baseurl }}/ko/#education">학력</a>
           <a href="{{ site.baseurl }}/ko/#cv">CV</a>
           <a href="{{ site.baseurl }}/ko/#contact">연락처</a>
+          {% else %}
+          <a href="{{ site.baseurl }}/#research">Research</a>
+          <a href="{{ site.baseurl }}/#publications">Publications</a>
+          <a href="{{ site.baseurl }}/#presentations">Presentations</a>
+          <a href="{{ site.baseurl }}/#education">Education</a>
+          <a href="{{ site.baseurl }}/#cv">CV</a>
+          <a href="{{ site.baseurl }}/#contact">Contact</a>
           {% endif %}
         </nav>
         <div class="lang-switch">
-          <a href="{{ site.baseurl }}/en/" class="{% if page.lang == 'en' %}active{% endif %}">EN</a>
+          <a href="{{ site.baseurl }}/" class="{% if page.lang != 'ko' %}active{% endif %}">EN</a>
           <span>·</span>
           <a href="{{ site.baseurl }}/ko/" class="{% if page.lang == 'ko' %}active{% endif %}">KO</a>
         </div>
