@@ -8,7 +8,7 @@ permalink: /ko/
 <section class="hero hero-grid">
   <div>
     <h1>최재호</h1>
-    <p>서강대학교 경제학 석사과정. 통화정책, 공간계량, 베이지안 계량, AI 기반 경제모형을 연구합니다.</p>
+    <p>서강대학교 경제학 석사과정입니다. 통화정책, 공간·네트워크 계량, 베이지안 경제계량, AI 기반 경제분석을 연구합니다.</p>
     <div class="cta-row">
       <a class="primary" href="#contact">연락하기</a>
       <a href="#cv">CV</a>
@@ -24,15 +24,15 @@ permalink: /ko/
   <div class="cards">
     <div class="card">
       <h3>거시경제 및 통화정책</h3>
-      <div class="meta">중앙은행 커뮤니케이션과 정책 스탠스 모델링.</div>
+      <div class="meta">중앙은행 커뮤니케이션을 활용한 통화정책 스탠스 분석과 모형화.</div>
     </div>
     <div class="card">
       <h3>공간·네트워크 계량</h3>
-      <div class="meta">스펙트럴 그래프 방법과 시스템 리스크 지표.</div>
+      <div class="meta">스펙트럴 그래프 방법으로 금융 네트워크의 구조적 연결성과 취약성을 분석.</div>
     </div>
     <div class="card">
       <h3>베이지안 계량</h3>
-      <div class="meta">Bayesian GVAR, 변동성 스필오버, 불확실성 하 추론.</div>
+      <div class="meta">Bayesian GVAR 기반의 변동성 스필오버와 시간 가변 충격 분석.</div>
     </div>
   </div>
 </section>
@@ -44,17 +44,19 @@ permalink: /ko/
       <strong>준비 중</strong><br>
       김재원, 박대민, 정세영, <strong>최재호</strong>, 정재식, 이윤수.
       <em>AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.</em>
+      <div class="meta">원고 작성 중</div>
     </div>
     <div class="list-item">
       <strong>준비 중</strong><br>
       <strong>최재호</strong>, 김재호.
       <em>Bayesian GVAR with COVID-19 Time-Varying Volatility and Spillovers.</em>
+      <div class="meta">원고 작성 중</div>
     </div>
     <div class="list-item">
       <strong>투고</strong><br>
       <strong>최재호</strong>, 김재원, 정세영, 정재식, 이윤수.
       <em>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis.</em>
-      <em>AISTATS 2026</em> 제출(심사 중).
+      <div class="meta"><em>AISTATS 2026</em> 제출(심사 중)</div>
     </div>
   </div>
 </section>
@@ -63,8 +65,8 @@ permalink: /ko/
   <h2>최근 업데이트</h2>
   <div class="list">
     <div class="list-item">
-      <strong>2026.01</strong> · PhD 지원서 준비를 완료하고 입학 원서 제출 절차 진행 중입니다.
-      <div class="meta">추천서와 연구계획서 패키지를 정리했습니다.</div>
+      <strong>2026.01</strong> · PhD 지원서를 준비해 제출했습니다.
+      <div class="meta">추천서 및 연구계획서 패키지를 정리했습니다.</div>
     </div>
     <div class="list-item">
       <strong>2026.04 (예정)</strong> · 제18회 WEAI International Conference(방콕) 발표 예정.

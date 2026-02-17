@@ -8,7 +8,7 @@ permalink: /
 <section class="hero hero-grid">
   <div>
     <h1>Jaeho Choi</h1>
-    <p>M.S. Student in Economics at Sogang University. Researching monetary policy, spatial econometrics, Bayesian methods, and AI-driven economic modeling.</p>
+    <p>M.S. student in Economics at Sogang University. I work on macroeconomics, monetary policy analysis, spatial/network econometrics, and Bayesian economic modeling.</p>
     <div class="cta-row">
       <a class="primary" href="#contact">Get in touch</a>
       <a href="#cv">CV</a>
@@ -24,15 +24,15 @@ permalink: /
   <div class="cards">
     <div class="card">
       <h3>Macroeconomics & Monetary Policy</h3>
-      <div class="meta">Central bank communication, policy stance modeling, and text-based inference.</div>
+      <div class="meta">Modeling monetary-policy stances from central-bank statements and communications.</div>
     </div>
     <div class="card">
       <h3>Spatial & Network Econometrics</h3>
-      <div class="meta">Spectral graph methods and systemic connectivity indicators.</div>
+      <div class="meta">Using spectral graph methods to study systemic connectivity and network fragility.</div>
     </div>
     <div class="card">
       <h3>Bayesian Econometrics</h3>
-      <div class="meta">Bayesian GVAR, volatility spillovers, and robust inference under uncertainty.</div>
+      <div class="meta">Bayesian GVAR applications for time-varying volatility and spillover channels.</div>
     </div>
   </div>
 </section>
@@ -44,19 +44,19 @@ permalink: /
       <strong>In Preparation</strong><br>
       Jaewon Kim, Daemin Park, Seyoung Chung, <strong>Jaeho Choi</strong>, Chaeshick Chung, & Yoonsoo Lee.
       <em>AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.</em>
-      Manuscript in preparation.
+      <div class="meta">Manuscript in preparation.</div>
     </div>
     <div class="list-item">
       <strong>In Preparation</strong><br>
       <strong>Jaeho Choi</strong> & Jaeho Kim.
       <em>Bayesian GVAR with COVID-19 Time-Varying Volatility and Spillovers.</em>
-      Manuscript in preparation.
+      <div class="meta">Manuscript in preparation.</div>
     </div>
     <div class="list-item">
       <strong>Submitted</strong><br>
       <strong>Jaeho Choi</strong>, Jaewon Kim, Seyoung Chung, Chae-shick Chung, & Yoonsoo Lee.
       <em>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis.</em>
-      Submitted to <em>AISTATS 2026</em> (under review).
+      <div class="meta">Submitted to <em>AISTATS 2026</em> (under review).</div>
     </div>
   </div>
 </section>
@@ -65,8 +65,8 @@ permalink: /
   <h2>Recent Updates</h2>
   <div class="list">
     <div class="list-item">
-      <strong>Jan 2026</strong> · Applied for PhD programs and coordinated materials for the admissions cycle.
-      <div class="meta">Preparing recommendation packets and research statements.</div>
+      <strong>Jan 2026</strong> · PhD applications prepared and submitted.
+      <div class="meta">Recommendation packets and research statements are currently being finalized.</div>
     </div>
     <div class="list-item">
       <strong>Apr 2026 (Scheduled)</strong> · Presenter at the 18th WEAI International Conference (Bangkok).
