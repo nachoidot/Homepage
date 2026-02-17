@@ -59,6 +59,20 @@ permalink: /ko/
   </div>
 </section>
 
+<section id="updates" class="section">
+  <h2>최근 업데이트</h2>
+  <div class="list">
+    <div class="list-item">
+      <strong>2026.01</strong> · PhD 지원서 준비를 완료하고 입학 원서 제출 절차 진행 중입니다.
+      <div class="meta">추천서와 연구계획서 패키지를 정리했습니다.</div>
+    </div>
+    <div class="list-item">
+      <strong>2026.04 (예정)</strong> · 제18회 WEAI International Conference(방콕) 발표 예정.
+      <div class="meta">작업 제목: AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.</div>
+    </div>
+  </div>
+</section>
+
 <section id="presentations" class="section">
   <h2>발표</h2>
   <div class="list">
@@ -87,6 +101,7 @@ permalink: /ko/
 <section id="cv" class="section">
   <h2>CV</h2>
   <div class="card">
+    <div class="meta" style="margin-bottom: 10px;">최종 수정: 2026년 2월</div>
     <div class="cta-row">
       <a class="primary" href="{{ site.baseurl }}/cv.tex">LaTeX source</a>
       <a href="{{ site.baseurl }}/cv.pdf">PDF (업로드 예정)</a>

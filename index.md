@@ -61,6 +61,20 @@ permalink: /
   </div>
 </section>
 
+<section id="updates" class="section">
+  <h2>Recent Updates</h2>
+  <div class="list">
+    <div class="list-item">
+      <strong>Jan 2026</strong> · Applied for PhD programs and coordinated materials for the admissions cycle.
+      <div class="meta">Preparing recommendation packets and research statements.</div>
+    </div>
+    <div class="list-item">
+      <strong>Apr 2026 (Scheduled)</strong> · Presenter at the 18th WEAI International Conference (Bangkok).
+      <div class="meta">Working title: AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.</div>
+    </div>
+  </div>
+</section>
+
 <section id="presentations" class="section">
   <h2>Presentations</h2>
   <div class="list">
@@ -89,6 +103,7 @@ permalink: /
 <section id="cv" class="section">
   <h2>CV</h2>
   <div class="card">
+    <div class="meta" style="margin-bottom: 10px;">Last updated: February 2026</div>
     <div class="cta-row">
       <a class="primary" href="{{ site.baseurl }}/cv.tex">LaTeX source</a>
       <a href="{{ site.baseurl }}/cv.pdf">PDF (to be uploaded)</a>
