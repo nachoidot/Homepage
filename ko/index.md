@@ -109,15 +109,6 @@ permalink: /ko/
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-date">Draft</div>
-        <div class="timeline-body">
-          <strong>Intense but Self-Limiting Neuroticism Composition:</strong>
-          <div>The Diffusion of Negative Sentiment in Korean Stock Message Board</div>
-          <div><strong>최재호</strong>.</div>
-          <div class="meta">Note: Working paper draft. <a href="{{ site.baseurl }}/intense_but_self_limiting_neuroticism.pdf">[draft]</a></div>
-        </div>
-      </div>
-      <div class="timeline-item">
         <div class="timeline-date">준비 중</div>
         <div class="timeline-body">
           <strong>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis</strong>
@@ -137,6 +128,13 @@ permalink: /ko/
     </div>
     <div class="timeline">
       <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-body">
+          <strong>KER2026 발표 예정</strong>
+          <div class="meta"><em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em> 발표 예정.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
         <div class="timeline-date">2026년 4월</div>
         <div class="timeline-body">
           <strong>WEAI 2026 발표</strong>
@@ -154,6 +152,14 @@ permalink: /ko/
       <p>학회 발표 및 연구 발표 이력입니다.</p>
     </div>
     <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-body">
+          <strong>KER2026</strong>
+          <div>발표 예정.</div>
+          <div class="meta"><em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em> 발표 예정.</div>
+        </div>
+      </div>
       <div class="timeline-item">
         <div class="timeline-date">2026</div>
         <div class="timeline-body">

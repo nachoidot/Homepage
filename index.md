@@ -109,15 +109,6 @@ permalink: /
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-date">Draft</div>
-        <div class="timeline-body">
-          <strong>Intense but Self-Limiting Neuroticism Composition:</strong>
-          <div>The Diffusion of Negative Sentiment in Korean Stock Message Board</div>
-          <div><strong>Jaeho Choi</strong>.</div>
-          <div class="meta">Note: Working paper draft. <a href="{{ site.baseurl }}/intense_but_self_limiting_neuroticism.pdf">[draft]</a></div>
-        </div>
-      </div>
-      <div class="timeline-item">
         <div class="timeline-date">In Preparation</div>
         <div class="timeline-body">
           <strong>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis</strong>
@@ -137,6 +128,13 @@ permalink: /
     </div>
     <div class="timeline">
       <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-body">
+          <strong>KER2026 presentation scheduled</strong>
+          <div class="meta">Scheduled to present <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em>.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
         <div class="timeline-date">April 2026</div>
         <div class="timeline-body">
           <strong>WEAI 2026 presentation</strong>
@@ -154,6 +152,14 @@ permalink: /
       <p>Conference activity and invited research talks.</p>
     </div>
     <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-body">
+          <strong>KER2026</strong>
+          <div>Presenter, scheduled.</div>
+          <div class="meta">Scheduled to present <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em>.</div>
+        </div>
+      </div>
       <div class="timeline-item">
         <div class="timeline-date">2026</div>
         <div class="timeline-body">
