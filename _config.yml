@@ -5,3 +5,5 @@ url: "https://nachoidot.github.io"
 markdown: kramdown
 timezone: Asia/Seoul
 theme: null
+exclude:
+  - cv.tex

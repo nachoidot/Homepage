@@ -7,42 +7,59 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Spectral:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <div class="brand">
-          <div class="name">{{ site.title }}</div>
-          <div class="tagline">M.S. Student, Sogang University (Economics)</div>
-        </div>
-        {% if page.lang == "en" or page.lang == "ko" %}
-        <nav class="site-nav">
-          {% if page.lang == "ko" %}
-          <a href="{{ site.baseurl }}/ko/#research">연구</a>
-          <a href="{{ site.baseurl }}/ko/#publications">논문</a>
-          <a href="{{ site.baseurl }}/ko/#updates">최근 업데이트</a>
-          <a href="{{ site.baseurl }}/ko/#presentations">발표</a>
-          <a href="{{ site.baseurl }}/ko/#education">학력</a>
-          <a href="{{ site.baseurl }}/ko/#cv">CV</a>
-          <a href="{{ site.baseurl }}/ko/#contact">연락처</a>
-          {% else %}
-          <a href="{{ site.baseurl }}/#research">Research</a>
-          <a href="{{ site.baseurl }}/#publications">Publications</a>
-          <a href="{{ site.baseurl }}/#updates">Recent Updates</a>
-          <a href="{{ site.baseurl }}/#presentations">Presentations</a>
-          <a href="{{ site.baseurl }}/#education">Education</a>
-          <a href="{{ site.baseurl }}/#cv">CV</a>
-          <a href="{{ site.baseurl }}/#contact">Contact</a>
+        <div class="masthead">
+          <div class="brand">
+            <div class="eyebrow">
+              {% if page.lang == "ko" %}
+              Academic Homepage
+              {% else %}
+              Academic Homepage
+              {% endif %}
+            </div>
+            <div class="name">{{ site.title }}</div>
+            <div class="tagline">
+              {% if page.lang == "ko" %}
+              서강대학교 경제학 석사과정. 통화정책, 기대 형성, 네트워크 계량, 베이지안 방법론을 중심으로 연구합니다.
+              {% else %}
+              M.S. student in Economics at Sogang University, with research interests in monetary policy, expectation formation, network econometrics, and Bayesian methods.
+              {% endif %}
+            </div>
+          </div>
+          {% if page.lang == "en" or page.lang == "ko" %}
+          <div class="masthead-side">
+            <nav class="site-nav">
+              {% if page.lang == "ko" %}
+              <a href="{{ site.baseurl }}/ko/#research">연구</a>
+              <a href="{{ site.baseurl }}/ko/#publications">논문</a>
+              <a href="{{ site.baseurl }}/ko/#updates">업데이트</a>
+              <a href="{{ site.baseurl }}/ko/#presentations">발표</a>
+              <a href="{{ site.baseurl }}/ko/#education">학력</a>
+              <a href="{{ site.baseurl }}/ko/#cv">CV</a>
+              <a href="{{ site.baseurl }}/ko/#contact">연락처</a>
+              {% else %}
+              <a href="{{ site.baseurl }}/#research">Research</a>
+              <a href="{{ site.baseurl }}/#publications">Publications</a>
+              <a href="{{ site.baseurl }}/#updates">Updates</a>
+              <a href="{{ site.baseurl }}/#presentations">Talks</a>
+              <a href="{{ site.baseurl }}/#education">Education</a>
+              <a href="{{ site.baseurl }}/#cv">CV</a>
+              <a href="{{ site.baseurl }}/#contact">Contact</a>
+              {% endif %}
+            </nav>
+            <div class="lang-switch">
+              <a href="{{ site.baseurl }}/" class="{% if page.lang != 'ko' %}active{% endif %}">EN</a>
+              <span>·</span>
+              <a href="{{ site.baseurl }}/ko/" class="{% if page.lang == 'ko' %}active{% endif %}">KO</a>
+            </div>
+          </div>
           {% endif %}
-        </nav>
-        <div class="lang-switch">
-          <a href="{{ site.baseurl }}/" class="{% if page.lang != 'ko' %}active{% endif %}">EN</a>
-          <span>·</span>
-          <a href="{{ site.baseurl }}/ko/" class="{% if page.lang == 'ko' %}active{% endif %}">KO</a>
         </div>
-        {% endif %}
       </div>
     </header>
 

@@ -6,117 +6,230 @@ permalink: /
 ---
 
 <section class="hero hero-grid">
-  <div>
+  <div class="hero-copy">
+    <div class="hero-kicker">Economics · Monetary Policy · Expectations</div>
     <h1>Jaeho Choi</h1>
-    <p>M.S. student in Economics at Sogang University. I work on macroeconomics, monetary policy analysis, spatial/network econometrics, and Bayesian economic modeling.</p>
+    <div class="hero-intro">
+      <p>I am an M.S. student in Economics at Sogang University studying how policy communication, belief formation, and network structure shape macroeconomic outcomes.</p>
+      <p>My current work centers on FOMC communication, inflation expectations, Bayesian macroeconometrics, and graph-based measurement of policy narratives.</p>
+    </div>
+    <div class="hero-highlights">
+      <div class="highlight">
+        <span class="highlight-label">Current Focus</span>
+        <strong>Monetary policy communication and expectations data</strong>
+      </div>
+      <div class="highlight">
+        <span class="highlight-label">Methods</span>
+        <strong>Bayesian time-series, local projections, spectral network analysis</strong>
+      </div>
+      <div class="highlight">
+        <span class="highlight-label">Affiliation</span>
+        <strong>Sogang University · Department of Economics</strong>
+      </div>
+    </div>
     <div class="cta-row">
-      <a class="primary" href="#contact">Get in touch</a>
+      <a class="primary" href="#research">View research</a>
+      <a href="#contact">Contact</a>
       <a href="#cv">CV</a>
     </div>
   </div>
-  <div class="profile-wrap">
-    <img class="profile-photo" src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Jaeho Choi profile photo">
-  </div>
+  <aside class="profile-panel">
+    <div class="profile-wrap">
+      <img class="profile-photo" src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Jaeho Choi profile photo">
+    </div>
+    <div class="profile-note">
+      Research interests: monetary economics, expectation formation, spatial and network econometrics, Bayesian empirical methods.
+    </div>
+  </aside>
 </section>
 
 <section id="research" class="section">
-  <h2>Research</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Macroeconomics & Monetary Policy</h3>
-      <div class="meta">Modeling monetary-policy stances from central-bank statements and communications.</div>
+  <div class="section-shell">
+    <div class="section-heading">
+      <h2>Research Agenda</h2>
+      <p>My work combines macroeconomic questions with empirical measurement tools designed for communication data, expectation surveys, and cross-sectional heterogeneity.</p>
     </div>
-    <div class="card">
-      <h3>Spatial & Network Econometrics</h3>
-      <div class="meta">Using spectral graph methods to study systemic connectivity and network fragility.</div>
-    </div>
-    <div class="card">
-      <h3>Bayesian Econometrics</h3>
-      <div class="meta">Bayesian GVAR applications for time-varying volatility and spillover channels.</div>
+    <div class="cards">
+      <div class="card">
+        <h3>Monetary Policy and Communication</h3>
+        <div class="meta">Studying how central-bank statements, policy surprises, and communication shocks reshape inflation expectations and macro beliefs.</div>
+      </div>
+      <div class="card">
+        <h3>Spatial and Network Econometrics</h3>
+        <div class="meta">Using spectral graph methods to characterize systemic connections, diffusion channels, and fragility in economic and financial systems.</div>
+      </div>
+      <div class="card">
+        <h3>Bayesian Macroeconometrics</h3>
+        <div class="meta">Building Bayesian GVAR and related time-series frameworks for volatility dynamics, spillovers, and policy transmission.</div>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="publications" class="section">
-  <h2>Publications</h2>
-  <div class="list">
-    <div class="list-item">
-      <strong>In Preparation</strong><br>
-      Jaewon Kim, Daemin Park, Seyoung Chung, <strong>Jaeho Choi</strong>, Chaeshick Chung, & Yoonsoo Lee.
-      <em>AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.</em>
-      <div class="meta">Manuscript in preparation.</div>
+  <div class="section-shell">
+    <div class="section-heading">
+      <h2>Working Papers</h2>
+      <p>Projects in progress at the intersection of monetary policy, AI-assisted reasoning, and macroeconomic measurement.</p>
     </div>
-    <div class="list-item">
-      <strong>In Preparation</strong><br>
-      <strong>Jaeho Choi</strong> & Jaeho Kim.
-      <em>Bayesian GVAR with COVID-19 Time-Varying Volatility and Spillovers.</em>
-      <div class="meta">Manuscript in preparation.</div>
-    </div>
-    <div class="list-item">
-      <strong>Submitted</strong><br>
-      <strong>Jaeho Choi</strong>, Jaewon Kim, Seyoung Chung, Chae-shick Chung, & Yoonsoo Lee.
-      <em>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis.</em>
-      <div class="meta">Submitted to <em>AISTATS 2026</em> (under review).</div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">Draft</div>
+        <div class="timeline-body">
+          <strong>All Talked Out:</strong>
+          <div>Retail Losses and Loss-Salience Saturation in Online Investor Discussion</div>
+          <div><strong>Jaeho Choi</strong>, Chaeshick Chung, and Yoonsoo Lee.</div>
+          <div class="meta">Field: Behavioral Finance. Scheduled for presentation at KER2026. <a href="{{ site.baseurl }}/all_talked_out_retail_losses_loss_salience_saturation.pdf">[draft]</a></div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">In Preparation</div>
+        <div class="timeline-body">
+          <strong>Measuring FOMC Policy Tone:</strong>
+          <div>Leakage-Controlled Two-Stage LLMs</div>
+          <div><strong>Jaeho Choi</strong>, Chaeshick Chung, Seyoung Chung, Jaewon Kim, Yoonsoo Lee, and Daemin Park.</div>
+          <div class="meta">Note: Presented at WEAI 2026 Bangkok. <a href="{{ site.baseurl }}/measuring_fomc_policy_tone_two_stage_llms.pdf">[draft]</a></div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">In Preparation</div>
+        <div class="timeline-body">
+          <strong>Bayesian GVAR with COVID-19 Time-Varying Volatility and Spillovers</strong>
+          <div><strong>Jaeho Choi</strong> and Jaeho Kim.</div>
+          <div class="meta">Note: Draft in progress.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">In Preparation</div>
+        <div class="timeline-body">
+          <strong>Reading the Fed Through Preferences:</strong>
+          <div>Recovering Latent Policy Utilities from Central Bank Communication with Preference-Trained Language Models</div>
+          <div><strong>Jaeho Choi</strong>, Seyoung Chung, Chaeshick Chung, and Yoonsoo Lee.</div>
+          <div class="meta">Note: Draft in progress.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Draft</div>
+        <div class="timeline-body">
+          <strong>Intense but Self-Limiting Neuroticism Composition:</strong>
+          <div>The Diffusion of Negative Sentiment in Korean Stock Message Board</div>
+          <div><strong>Jaeho Choi</strong>.</div>
+          <div class="meta">Note: Working paper draft. <a href="{{ site.baseurl }}/intense_but_self_limiting_neuroticism.pdf">[draft]</a></div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">In Preparation</div>
+        <div class="timeline-body">
+          <strong>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis</strong>
+          <div>Chaeshick Chung, Seyoung Chung, <strong>Jaeho Choi</strong>, Jaewon Kim, and Yoonsoo Lee.</div>
+          <div class="meta">Note: Draft in progress.</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="updates" class="section">
-  <h2>Recent Updates</h2>
-  <div class="list">
-    <div class="list-item">
-      <strong>Jan 2026</strong> · PhD applications prepared and submitted.
-      <div class="meta">Recommendation packets and research statements are currently being finalized.</div>
+  <div class="section-shell">
+    <div class="section-heading">
+      <h2>Recent Updates</h2>
+      <p>Selected conference and research updates.</p>
     </div>
-    <div class="list-item">
-      <strong>Apr 2026 (Scheduled)</strong> · Presenter at the 18th WEAI International Conference (Bangkok).
-      <div class="meta">Working title: AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework.</div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">April 2026</div>
+        <div class="timeline-body">
+          <strong>WEAI 2026 presentation</strong>
+          <div class="meta">Presented new work on FOMC policy-tone measurement in Bangkok.</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="presentations" class="section">
-  <h2>Presentations</h2>
-  <div class="list">
-    <div class="list-item">
-      18th WEAI International Conference (Presenter, Bangkok)
-      <div class="meta">Scheduled for April 2026.</div>
+  <div class="section-shell">
+    <div class="section-heading">
+      <h2>Presentations</h2>
+      <p>Conference activity and invited research talks.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2026</div>
+        <div class="timeline-body">
+          <strong>18th WEAI International Conference</strong>
+          <div>Presenter, Bangkok.</div>
+          <div class="meta">Presented <em>Measuring FOMC Policy Tone: Leakage-Controlled Two-Stage LLMs</em>.</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="education" class="section">
-  <h2>Education</h2>
-  <div class="list">
-    <div class="list-item">
-      <strong>Sogang University</strong>, Seoul, Republic of Korea
-      <div class="meta">M.A. in Economics, Sep 2024 – Present · GPA 4.11/4.30</div>
+  <div class="section-shell">
+    <div class="section-heading">
+      <h2>Education</h2>
+      <p>Formal training in economics, business, and consumer science.</p>
     </div>
-    <div class="list-item">
-      <strong>Incheon National University</strong>, Incheon, Republic of Korea
-      <div class="meta">B.S. Consumer Science, B.B.A., B.A. Economics, Mar 2019 – Aug 2024</div>
-      <div class="meta">Highest Honors (2/14 in department)</div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2024 - Present</div>
+        <div class="timeline-body">
+          <strong>Sogang University, Seoul</strong>
+          <div>M.A. in Economics.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2019 - 2024</div>
+        <div class="timeline-body">
+          <strong>Incheon National University, Incheon</strong>
+          <div>B.S. in Consumer Science, B.B.A., and B.A. in Economics.</div>
+          <div class="meta">Highest Honors, ranked 2/14 in department.</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="cv" class="section">
-  <h2>CV</h2>
-  <div class="card">
-    <div class="meta" style="margin-bottom: 10px;">Last updated: February 2026</div>
-    <div class="cta-row">
-      <a class="primary" href="{{ site.baseurl }}/cv.tex">LaTeX source</a>
-      <a href="{{ site.baseurl }}/cv.pdf">PDF (to be uploaded)</a>
+  <div class="section-shell">
+    <div class="section-heading">
+      <h2>Curriculum Vitae</h2>
+      <p>Source files and downloadable materials for applications, talks, and academic correspondence.</p>
+    </div>
+    <div class="card">
+      <div class="meta" style="margin-bottom: 12px;">Last updated: February 2026</div>
+      <div class="cta-row">
+        <a class="primary" href="{{ site.baseurl }}/cv.pdf">PDF</a>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="contact" class="section">
-  <h2>Contact</h2>
-  <div class="contact-grid">
-    <div>Email: <a href="mailto:wogh1217@sogang.ac.kr">wogh1217@sogang.ac.kr</a></div>
-    <div>Phone: <a href="tel:+821063193924">+82 10-6319-3924</a></div>
-    <div>LinkedIn: <a href="https://www.linkedin.com/in/jaeho-choi99/">linkedin.com/in/jaeho-choi99</a></div>
-    <div>Lab: <a href="https://sc.sogang.ac.kr/aifinlab/">AIFinLab</a></div>
+  <div class="section-shell">
+    <div class="section-heading">
+      <h2>Contact</h2>
+      <p>I am reachable for research collaboration, applications, and conference-related correspondence.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span>Email</span>
+        <a href="mailto:wogh1217@sogang.ac.kr">wogh1217@sogang.ac.kr</a>
+      </div>
+      <div class="contact-card">
+        <span>Phone</span>
+        <a href="tel:+821063193924">+82 10-6319-3924</a>
+      </div>
+      <div class="contact-card">
+        <span>LinkedIn</span>
+        <a href="https://www.linkedin.com/in/jaeho-choi99/">linkedin.com/in/jaeho-choi99</a>
+      </div>
+      <div class="contact-card">
+        <span>Lab</span>
+        <a href="https://sc.sogang.ac.kr/aifinlab/">AIFinLab</a>
+      </div>
+    </div>
   </div>
 </section>
