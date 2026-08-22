@@ -7,20 +7,20 @@ permalink: /
 
 <section class="hero hero-grid">
   <div class="hero-copy">
-    <div class="hero-kicker">Economics · Monetary Policy · Expectations</div>
+    <div class="hero-kicker">International Macroeconomics · Bayesian Econometrics · AI</div>
     <h1>Jaeho Choi</h1>
     <div class="hero-intro">
-      <p>I am an M.S. student in Economics at Sogang University studying how policy communication, belief formation, and network structure shape macroeconomic outcomes.</p>
-      <p>My current work centers on FOMC communication, inflation expectations, Bayesian macroeconometrics, and graph-based measurement of policy narratives.</p>
+      <p>I am a Ph.D. student in Economics at Sogang University and hold an M.A. in AI Financial Economics from Sogang University.</p>
+      <p>My research spans international macroeconomics, Bayesian econometrics, and AI-driven economic modeling, with current work on monetary policy communication and macro-financial networks.</p>
     </div>
     <div class="hero-highlights">
       <div class="highlight">
         <span class="highlight-label">Current Focus</span>
-        <strong>Monetary policy communication and expectations data</strong>
+        <strong>International macroeconomics and monetary policy</strong>
       </div>
       <div class="highlight">
         <span class="highlight-label">Methods</span>
-        <strong>Bayesian time-series, local projections, spectral network analysis</strong>
+        <strong>Bayesian econometrics, network analysis, language models</strong>
       </div>
       <div class="highlight">
         <span class="highlight-label">Affiliation</span>
@@ -38,7 +38,7 @@ permalink: /
       <img class="profile-photo" src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Jaeho Choi profile photo">
     </div>
     <div class="profile-note">
-      Research interests: monetary economics, expectation formation, spatial and network econometrics, Bayesian empirical methods.
+      Research interests: international macroeconomics, macroeconomics, Bayesian econometrics, and AI-driven economic modeling.
     </div>
   </aside>
 </section>
@@ -47,20 +47,20 @@ permalink: /
   <div class="section-shell">
     <div class="section-heading">
       <h2>Research Agenda</h2>
-      <p>My work combines macroeconomic questions with empirical measurement tools designed for communication data, expectation surveys, and cross-sectional heterogeneity.</p>
+      <p>My work combines macroeconomic questions with Bayesian empirical methods, network analysis, and AI-based measurement tools.</p>
     </div>
     <div class="cards">
       <div class="card">
-        <h3>Monetary Policy and Communication</h3>
-        <div class="meta">Studying how central-bank statements, policy surprises, and communication shocks reshape inflation expectations and macro beliefs.</div>
+        <h3>International Macroeconomics</h3>
+        <div class="meta">Studying monetary policy, international spillovers, trade dispersion, and the transmission of macroeconomic shocks.</div>
       </div>
       <div class="card">
-        <h3>Spatial and Network Econometrics</h3>
-        <div class="meta">Using spectral graph methods to characterize systemic connections, diffusion channels, and fragility in economic and financial systems.</div>
+        <h3>Bayesian Econometrics</h3>
+        <div class="meta">Building Bayesian time-series and GVAR frameworks for volatility dynamics, spillovers, and policy transmission.</div>
       </div>
       <div class="card">
-        <h3>Bayesian Macroeconometrics</h3>
-        <div class="meta">Building Bayesian GVAR and related time-series frameworks for volatility dynamics, spillovers, and policy transmission.</div>
+        <h3>AI-Driven Economic Modeling</h3>
+        <div class="meta">Using language models and network methods to measure monetary policy stance, reasoning, and systemic connectivity.</div>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ permalink: /
   <div class="section-shell">
     <div class="section-heading">
       <h2>Working Papers</h2>
-      <p>Projects in progress at the intersection of monetary policy, AI-assisted reasoning, and macroeconomic measurement.</p>
+      <p>Manuscripts in preparation across international macroeconomics, monetary policy, Bayesian econometrics, and behavioral finance.</p>
     </div>
     <div class="timeline">
       <div class="timeline-item">
@@ -79,16 +79,24 @@ permalink: /
           <strong>All Talked Out:</strong>
           <div>Retail Losses and Loss-Salience Saturation in Online Investor Discussion</div>
           <div><strong>Jaeho Choi</strong>, Chaeshick Chung, and Yoonsoo Lee.</div>
-          <div class="meta">Field: Behavioral Finance. Scheduled for presentation at KER2026. <a href="{{ site.baseurl }}/all_talked_out_retail_losses_loss_salience_saturation.pdf">[draft]</a></div>
+          <div class="meta">Field: Behavioral Finance. Presented at KER2026 and the Sogang Global Symposium on the Frontiers of Economics. <a href="{{ site.baseurl }}/all_talked_out_retail_losses_loss_salience_saturation.pdf">[draft]</a></div>
         </div>
       </div>
       <div class="timeline-item">
         <div class="timeline-date">In Preparation</div>
         <div class="timeline-body">
-          <strong>Measuring FOMC Policy Tone:</strong>
-          <div>Leakage-Controlled Two-Stage LLMs</div>
-          <div><strong>Jaeho Choi</strong>, Chaeshick Chung, Seyoung Chung, Jaewon Kim, Yoonsoo Lee, and Daemin Park.</div>
-          <div class="meta">Note: Presented at WEAI 2026 Bangkok. <a href="{{ site.baseurl }}/measuring_fomc_policy_tone_two_stage_llms.pdf">[draft]</a></div>
+          <strong>AI Fed:</strong>
+          <div>Bridging AI and Experts Through a Monetary Policy Reasoning Framework</div>
+          <div>Jaewon Kim, Daemin Park, Seyoung Chung, <strong>Jaeho Choi</strong>, Chaeshick Chung, and Yoonsoo Lee.</div>
+          <div class="meta">Presented at the 18th WEAI International Conference in Bangkok, April 2026. <a href="{{ site.baseurl }}/measuring_fomc_policy_tone_two_stage_llms.pdf">[draft]</a></div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">In Preparation</div>
+        <div class="timeline-body">
+          <strong>AI and Export</strong>
+          <div><strong>Jaeho Choi</strong> and Sookyung Woo.</div>
+          <div class="meta">Manuscript in preparation.</div>
         </div>
       </div>
       <div class="timeline-item">
@@ -96,24 +104,7 @@ permalink: /
         <div class="timeline-body">
           <strong>Bayesian GVAR with COVID-19 Time-Varying Volatility and Spillovers</strong>
           <div><strong>Jaeho Choi</strong> and Jaeho Kim.</div>
-          <div class="meta">Note: Draft in progress.</div>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-date">In Preparation</div>
-        <div class="timeline-body">
-          <strong>Reading the Fed Through Preferences:</strong>
-          <div>Recovering Latent Policy Utilities from Central Bank Communication with Preference-Trained Language Models</div>
-          <div><strong>Jaeho Choi</strong>, Seyoung Chung, Chaeshick Chung, and Yoonsoo Lee.</div>
-          <div class="meta">Note: Draft in progress.</div>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-date">In Preparation</div>
-        <div class="timeline-body">
-          <strong>Does FOMC Tone Really Matter? Statistical Evidence from Spectral Graph Network Analysis</strong>
-          <div>Chaeshick Chung, Seyoung Chung, <strong>Jaeho Choi</strong>, Jaewon Kim, and Yoonsoo Lee.</div>
-          <div class="meta">Note: Draft in progress.</div>
+          <div class="meta">Manuscript in preparation.</div>
         </div>
       </div>
     </div>
@@ -128,10 +119,17 @@ permalink: /
     </div>
     <div class="timeline">
       <div class="timeline-item">
-        <div class="timeline-date">2026</div>
+        <div class="timeline-date">August 2026</div>
         <div class="timeline-body">
-          <strong>KER2026 presentation scheduled</strong>
-          <div class="meta">Scheduled to present <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em>.</div>
+          <strong>Sogang Global Symposium presentation</strong>
+          <div class="meta">Presented <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em> at the Sogang Global Symposium on the Frontiers of Economics.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">June 2026</div>
+        <div class="timeline-body">
+          <strong>Korean Economics Review International Conference</strong>
+          <div class="meta">Presented <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em> in Jeju.</div>
         </div>
       </div>
       <div class="timeline-item">
@@ -153,19 +151,27 @@ permalink: /
     </div>
     <div class="timeline">
       <div class="timeline-item">
-        <div class="timeline-date">2026</div>
+        <div class="timeline-date">August 2026</div>
         <div class="timeline-body">
-          <strong>KER2026</strong>
-          <div>Presenter, scheduled.</div>
-          <div class="meta">Scheduled to present <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em>.</div>
+          <strong>Sogang Global Symposium on the Frontiers of Economics</strong>
+          <div>Presenter.</div>
+          <div class="meta">Presented <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em>.</div>
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-date">2026</div>
+        <div class="timeline-date">June 2026</div>
+        <div class="timeline-body">
+          <strong>Korean Economics Review International Conference</strong>
+          <div>Presenter, Jeju.</div>
+          <div class="meta">Presented <em>All Talked Out: Retail Losses and Loss-Salience Saturation in Online Investor Discussion</em>.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">April 2026</div>
         <div class="timeline-body">
           <strong>18th WEAI International Conference</strong>
           <div>Presenter, Bangkok.</div>
-          <div class="meta">Presented <em>Measuring FOMC Policy Tone: Leakage-Controlled Two-Stage LLMs</em>.</div>
+          <div class="meta">Presented <em>AI Fed: Bridging AI and Experts Through a Monetary Policy Reasoning Framework</em>.</div>
         </div>
       </div>
     </div>
@@ -183,7 +189,14 @@ permalink: /
         <div class="timeline-date">2024 - Present</div>
         <div class="timeline-body">
           <strong>Sogang University, Seoul</strong>
-          <div>M.A. in Economics.</div>
+          <div>Ph.D. student in Economics.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2024 - August 2026</div>
+        <div class="timeline-body">
+          <strong>Sogang University, Seoul</strong>
+          <div>M.A. in AI Financial Economics.</div>
         </div>
       </div>
       <div class="timeline-item">
@@ -205,7 +218,7 @@ permalink: /
       <p>Source files and downloadable materials for applications, talks, and academic correspondence.</p>
     </div>
     <div class="card">
-      <div class="meta" style="margin-bottom: 12px;">Last updated: February 2026</div>
+      <div class="meta" style="margin-bottom: 12px;">Last updated: August 2026</div>
       <div class="cta-row">
         <a class="primary" href="{{ site.baseurl }}/cv.pdf">PDF</a>
       </div>
